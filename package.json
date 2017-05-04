@@ -1,0 +1,39 @@
+{
+  "name": "condor-context-test-helper",
+  "version": "0.0.1",
+  "description": "A simple helper module to tests bearer tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "posttest": "npm run lint && nsp check",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsu/condor-context-test-helper.git"
+  },
+  "keywords": [
+    "condor",
+    "grpc",
+    "context",
+    "test",
+    "helper"
+  ],
+  "author": "Cesar Salazar @ Devsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsu/condor-context-test-helper/issues"
+  },
+  "homepage": "https://github.com/devsu/condor-context-test-helper#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-devsu-node": "0.0.3",
+    "jasmine": "^2.6.0",
+    "jasmine-spy": "0.0.2",
+    "keypair": "^1.0.1",
+    "nsp": "^2.6.3"
+  },
+  "dependencies": {
+    "grpc": "^1.3.1-pre1"
+  }
+}
